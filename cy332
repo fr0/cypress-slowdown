@@ -1,0 +1,4 @@
+#!/bin/bash -e
+
+CYPRESS_INSTALL_BINARY=https://cdn.cypress.io/beta/binary/3.3.2/darwin-x64/circle-develop-c2861ba5576f1fff52dffdafc1cc031494ddf2a1-125917/cypress.zip yarn add --dev https://cdn.cypress.io/beta/npm/3.3.2/circle-develop-c2861ba5576f1fff52dffdafc1cc031494ddf2a1-125915/cypress.tgz
+yarn run cypress run

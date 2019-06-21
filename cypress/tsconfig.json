@@ -1,0 +1,7 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["mocha", "sinon", "chai", "sinon-chai"],
+    "typeRoots": ["node_modules/@types"]
+  }
+}
